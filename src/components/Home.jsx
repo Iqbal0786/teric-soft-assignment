@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/style.css"
+import Card from './Card'
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
 
       <div id='HighlightDiv'>
          <div id='highlightTitle'>Highlights</div>
+         <div id='displayCards'>
+           <Card/>
+         </div>
       </div>
     </>
   )
