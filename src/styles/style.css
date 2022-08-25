@@ -1,0 +1,40 @@
+#slideDiv{
+    width: 100%;
+    height: 100px;
+    border: 1px solid red;
+}
+#header_Menu{
+    width: 40%;
+    height: 40px;
+    margin: auto;
+    /* border: 1px solid green; */
+}
+#header_Menu >ul{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 3%;
+    color: white;
+    cursor: pointer;
+}
+div{
+    background-color: #2e2e2e;
+}
+body{
+    background-color: #2e2e2e;
+}
+#borderDiv{
+    width: 100%;
+    border: 4px solid gray;
+   
+}
+#highlightTitle{
+    width: 80px;
+    font-family:sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+    border-bottom: 3px solid gray;
+}
