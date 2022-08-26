@@ -6,7 +6,42 @@ export default function Home() {
   return (
     <>
      <div id='slideDiv'>
-
+        <div className='iconDiv'>
+        <i class="fa fa-star"></i>
+        <p>Features</p>
+        </div>
+        <div className='iconDiv'>
+        <i class="fa fa-star"></i>
+        <p>Features</p>
+        </div>
+        <div className='iconDiv'>
+        <i class="fa fa-star"></i>
+        <p>Features</p>
+        </div>
+        <div className='iconDiv'>
+        <i class="fa fa-star"></i>
+        <p>Features</p>
+        </div>
+        <div className='iconDiv'>
+        <i class="fa fa-star"></i>
+        <p>Features</p>
+        </div>
+        <div className='iconDiv'>
+        <i class="fa fa-star"></i>
+        <p>Features</p>
+        </div>
+        <div className='iconDiv'>
+        <i class="fa fa-star"></i>
+        <p>Features</p>
+        </div>
+        <div className='iconDiv'>
+        <i class="fa fa-star"></i>
+        <p>Features</p>
+        </div>
+        <div className='iconDiv'>
+        <i class="fa fa-star"></i>
+        <p>Features</p>
+        </div>
      </div>
      <div id="header_Menu">
         <ul>
