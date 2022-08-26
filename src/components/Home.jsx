@@ -55,7 +55,7 @@ export default function Home() {
      </div>
      <div id="header_Menu">
         <ul>
-            <li onClick={()=>{dispatch(get_bmx())}}>BMS</li>
+            <li onClick={()=>{dispatch(get_bmx())}}>BMX</li>
             <li onClick={()=>{dispatch(get_mountains())}}>Mountains</li>
             <li onClick={()=>{dispatch(get_roads())}}>Road</li>
             <li onClick={()=>{dispatch(get_tracks())}}>Tracks</li>
