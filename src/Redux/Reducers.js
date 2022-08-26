@@ -79,7 +79,7 @@ const initialState = {
 
 export const Reducers=(store=initialState,{type,payload})=>{
      switch(type){
-        case GET_BMX : return {...store,filterData:store.record.filter((e)=>e.category=="BMX")}
+        case GET_BMX : return {...store,filterData:store.record.filter((e)=>e.category=="BMX") }
         case GET_MOUNTAINS : return {...store,filterData:store.record.filter((e)=>e.category=="Mountains")}
         case GET_ROADS : return {...store,filterData:store.record.filter((e)=>e.category=="Roads")}
         case GET_TRACKS : return {...store,filterData:store.record.filter((e)=>e.category=="Tracks")}
