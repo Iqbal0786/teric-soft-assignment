@@ -13,6 +13,10 @@ export default class Card extends Component {
                 <p>Day 1 of BMX</p>
                 <p>5:12</p>
              </div>
+             <div className="buttonDiv">
+               <button>HEATS</button>
+               <button>HIGHTLIGHTS</button>
+             </div>
          </div>
       </div>
     )
