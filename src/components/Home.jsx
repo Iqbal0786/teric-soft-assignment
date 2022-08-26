@@ -14,7 +14,7 @@ export default function Home() {
           setTimeout(() => {
             dispatch(get_bmx())
             setIsLoading(false)
-          }, 2000);
+          }, 3000);
       }, [])
     
   return (
@@ -81,7 +81,7 @@ export default function Home() {
          <div id='highlightTitle'>Highlights</div>
          <div id='displayCards'>
          { 
-      isLoading? <img src='https://cdn.dribbble.com/users/1787505/screenshots/7300251/media/a351d9e0236c03a539181b95faced9e0.gif'/> :  data.filterData.map((item)=>{
+      isLoading? <img className='loaderImg' src='https://i.pinimg.com/originals/15/f2/09/15f209bdae6da376665c3a1b2cb781ea.gif'/> :  data.filterData.map((item)=>{
             return (
              <Card item={item}/>
             )
