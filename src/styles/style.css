@@ -132,3 +132,33 @@ img{
     margin-top: 5%;
     margin-left: 45%;
 }
+@media only screen and (max-width: 600px) {
+    #slideDiv{
+        width: 100%;
+        flex-wrap: wrap;
+        height: 450px;
+        /* border: 1px solid green; */
+    }
+    #header_Menu{
+        width: 100%;
+
+    }
+    #header_Menu >ul{
+        justify-content: space-around;
+
+        /* border: 1px solid red; */
+
+    }
+    #displayCards{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 10px;
+        /* border: 1px solid blue; */
+    }
+    .loaderImg{
+        margin-top: 3%;
+    margin-left: 5%;
+        
+    }
+  }
